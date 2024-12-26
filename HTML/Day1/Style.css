@@ -2,8 +2,12 @@ p{
     color: rgp(240, 8,8);
 }
 h1{
-    color: greenyellow;
+    color: white;
+    background-color: rgb(168, 173, 180);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
+
 h2{
     color: rgb(47, 2, 248);
 }
