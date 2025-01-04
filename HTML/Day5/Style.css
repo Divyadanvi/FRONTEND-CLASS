@@ -1,0 +1,43 @@
+<style>
+th,tr,td{
+border:1px solid black ;
+}
+
+body{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin: 30px;
+}
+form{
+max-width: 500px;
+margin: auto;
+padding: 50px;
+border: 2px solid green;
+border-radius: 50px;
+
+}
+label{
+
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input,select,textarea,button{
+
+    width: 100%;;
+padding: 8px;
+margin-bottom: 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button{
+
+    background-color: blueviolet;
+color: black;
+border: none;
+cursor: pointer;
+
+
+}
+
+</style>
