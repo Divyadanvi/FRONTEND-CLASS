@@ -1,4 +1,3 @@
-<script>
 const form = document.getElementById("my form");
 const ErrorMessage = document.getElementById("ErrorMessage");
 
@@ -15,4 +14,3 @@ if(Password.length < 6)
 
 })
 
-</script>

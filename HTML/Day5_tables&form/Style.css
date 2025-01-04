@@ -1,4 +1,4 @@
-<style>
+
 th,tr,td{
 border:1px solid black ;
 }
@@ -7,6 +7,7 @@ body{
  font-family: Georgia, 'Times New Roman', Times, serif;
  margin: 30px;
 }
+
 form{
 max-width: 500px;
 margin: auto;
@@ -41,4 +42,4 @@ cursor: pointer;
 
 }
 
-</style>
+
