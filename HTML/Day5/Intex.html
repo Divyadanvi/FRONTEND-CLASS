@@ -72,7 +72,20 @@ id="Error Message" Class="Error"
 
 </form>
 <script>
-const form = document.getElementById("my from")
+const form = document.getElementById("my form");
+const Error Message = document.getElementById("Error Message")
+
+form.addEventListener('submit', function(event){
+errormessage.textcontent="";
+
+const Password = document.getElementById("password").value;
+if(Password.length<6){
+    event.preventDefault();
+    errormessage.textcontent = "password"
+}
+
+
+})
 
 </script>
 
