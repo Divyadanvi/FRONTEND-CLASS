@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence:YELA@-100..100&display=swap');
+
+*{
+    margin: 0;
+        font-family: "Rubik Wet Paint", serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 0;
+        box-sizing: border-box;      
+}
+/* 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(2, 84, 57);
+    color: white ;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(2, 84, 57);
+    color: white ;
+    padding: 1rem;
+    margin-top: auto;
+    text-align: center;
+
+}
+.container{
+    display:flex;
+    flex: 1;
+}
+.left-side , .right-side{
+    background-color: #878787;
+    width: 20%;
+    padding: 1rem;
+
+
+}
+
+.main-content {
+    flex: 1;
+    background-color: aquamarine;
+    padding: 16px;
+}
+
+.left-side{
+    border-right: 4px solid #f7da04;
+}
+.right-side{
+    border-left: 3px solid #fafa00;
+}
+
+
+ */
+
+
+
+ body {
+    display: grid;
+    grid-template-rows: auto 1fr auto  ;
+    height: 100vh;
+    margin: 0;
+ }
+
+ header {
+    grid-row: 1;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 1rem;
+ }
+
+
+ .container{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    gap: 2rem;
+ }
+
+
+ .left-side{
+    background-color: #c7c7c7;
+    padding: 1rem;
+    border-right: 2px solid green ;
+ }
+ .main-content {
+ 
+    background-color: aquamarine;
+    padding: 16px;
+}
+
+.right-side{
+    border-left: 3px solid #fafa00;
+}
+
+footer{
+grid-row: 3;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
