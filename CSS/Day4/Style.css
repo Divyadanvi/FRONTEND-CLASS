@@ -1,26 +1,23 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 .section {
     margin: 20px 0;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 5px solid hsl(0, 0%, 80%);
     background-color: #a6a2a2;
 }
-
 .heading{
     font-size: 20px;
     font-weight: bolder;
     margin-bottom:10px ;
 }
 
-
 .static{
     background-color: lightblue;
     padding: 10px;
-    /* position: static; */
+    position: static;
 }
 
 .relative {
@@ -47,12 +44,9 @@ body{
     background-color: rgb(51, 237, 172);
     padding: 10px;
 }
-
-
-
 .fixed{
     position: fixed;
-    top: 10px;
+    top: 300px;
     right: 10px;
     background-color: lightyellow;
     padding: 20px;
@@ -71,41 +65,40 @@ body{
     padding: 15px;
 }
 
+/* Z-index and Stacking Context */
+.box1 {
+    position: relative;
+    z-index: 1;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+  }
 
+  .box2 {
+    position: relative;
+    z-index: 2;
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    padding: 10px;
+  }
 
-
-    /* Z-index and Stacking Context */
-    .box1 {
-        position: relative;
-        z-index: 1;
-        background-color: lightblue;
-        width: 200px;
-        height: 200px;
-        padding: 10px;
-      }
-      .box2 {
-        position: relative;
-        z-index: 2;
-        background-color: lightgreen;
-        width: 200px;
-        height: 200px;
-        margin-top: -100px;
-        padding: 10px;
-      }
-      .stack-context {
-        position: relative;
-        z-index: 1;
-        background-color: lightgray;
-        width: 300px;
-        height: 300px;
-        margin-top: 20px;
-      }
-      .stack-child {
-        position: absolute;
-        z-index: 2;
-        background-color: lightcoral;
-        width: 150px;
-        height: 150px;
-        top: 50px;
-        left: 50px;
-      }
+  .stack-context {
+    position: relative;
+    z-index: 1;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+  .stack-child {
+    position: absolute;
+    z-index: 2;
+    background-color: lightcoral;
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    left: 50px;
+  }
