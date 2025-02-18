@@ -3,7 +3,6 @@
     overflow: hidden;
 }
 
-
 .float-box{
     float: left;
     width: 50%;
@@ -12,7 +11,6 @@
     box-sizing: border-box;
 
 }
-
 
 .flex-container{
 
@@ -24,7 +22,6 @@
     background-color: lightgray;
     height: 200px;
     border: 1px solid #333;
-
 }
 .flex-item {
     background-color: lightcoral;
@@ -34,12 +31,11 @@
     border-radius: 8px;
   }
 
-
   .flex-item:hover{
     background-color: black;
   }
 
-  .ar{
+.ar{
     display: block;
     background-color: lightblue;
 }
