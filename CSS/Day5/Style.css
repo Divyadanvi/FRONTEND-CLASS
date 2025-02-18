@@ -1,0 +1,49 @@
+.float-container{
+    border: 2px solid green ;
+    overflow: hidden;
+}
+
+
+.float-box{
+    float: left;
+    width: 50%;
+    padding: 16px;
+    background-color: lightcoral;
+    box-sizing: border-box;
+
+}
+
+
+.flex-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    background-color: lightgray;
+    height: 200px;
+    border: 1px solid #333;
+
+}
+.flex-item {
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+
+  .flex-item:hover{
+    background-color: black;
+  }
+
+  .ar{
+    display: block;
+    background-color: lightblue;
+}
+span{
+    display: inline;
+    background-color: blue;
+}
